@@ -1,0 +1,61 @@
+# I will generate the requested text file with the provided content.
+
+txt_content = """
+Fonts
+----------------------------------------------
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500;600&family=Pacifico&family=Source+Sans+Pro:wght@400;600;700&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+----------------------------------------------
+
+Skills
+----------------------------------------------
+Habilidades
+----------------------------------------------
+Eu amo criar designs que falam por si só. Mantenho-os limpos, minimalistas e simples.
+EU GOSTO DE DESIGN
+Web Design
+Aplicativos Mobile
+
+FERRAMENTAS
+Figma, Adobe XD
+
+Valorizo os negócios ou marcas para os quais estou criando, e por isso gosto de trazer novas ideias à vida.
+HABILIDADES
+HTML, CSS, JavaScript, React, Redux, Sass, Bootstrap, Tailwind, Firebase, entre outros.
+
+FERRAMENTAS
+VSCode, GitHub, Codepen, Tinkercad, entre outros.
+
+----------------------------------------------
+
+About Text
+----------------------------------------------
+Sobre Mim
+----------------------------------------------
+Sou Guilherme Barbiero, um desenvolvedor front-end e estudante de engenharia de software na FIAP, localizado no Brasil. Gosto de criar sites simples e bonitos, com uma excelente experiência para o usuário.
+
+Estou sempre interessado em todo o ecossistema front-end e adoro experimentar novas tecnologias e construir grandes projetos. Tenho também um forte interesse em backend e análise de dados. Além disso, sou um estudante dedicado e estou constantemente aprendendo novas ferramentas e linguagens.
+
+Acredito que a tecnologia é uma arte quando se coloca a consciência no que se faz. Você pode se conectar comigo por meio das minhas redes sociais.
+----------------------------------------------
+
+Theme
+----------------------------------------------
+Tema
+----------------------------------------------
+    body:"#FCF6F4",
+    text:"#000000",
+    fontFamily:"'Source Sans Pro', sans-serif",
+    bodyRgba : "252, 246, 244",
+    textRgba:"0,0,0",
+----------------------------------------------
+"""
+
+# Save the text content into a .txt file
+file_path = '/mnt/data/portfolio_text.txt'
+with open(file_path, 'w') as file:
+    file.write(txt_content)
+
+file_path
